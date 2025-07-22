@@ -19,7 +19,6 @@ button:hover {
   background: #008c9e;
 }
 
-/* Modal styles */
 .modal {
   display: none;
   position: fixed;
@@ -65,7 +64,6 @@ button:hover {
   width: 100%;
 }
 
-/* Close button */
 .close {
   color: #aaa;
   float: right;
@@ -75,4 +73,20 @@ button:hover {
 
 .close:hover {
   color: #000;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #00bcd4;
 }
